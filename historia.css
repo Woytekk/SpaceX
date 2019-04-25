@@ -1,0 +1,113 @@
+.baner
+{
+	background: url("grafika/minibaner.png") bottom center no-repeat;	
+	height: 700px;
+	width: 100%;
+}
+
+.rakiety
+{
+	min-height: 400px;
+	background-color:#535f6b;
+}
+
+.rakiety_lewo
+{
+}
+
+.rakiety_prawo
+{
+}
+
+
+.f1
+{
+	background: url("grafika/F1.jpg") center no-repeat;	
+	background-size: cover;
+	min-height: 500px;
+}
+
+.f9
+{
+	background: url("grafika/F9.jpg") center top no-repeat;	
+	background-size: cover;
+	min-height: 500px;
+}
+
+.rakiety_text
+{
+	text-align: center;
+	background-color:#535f6b;
+	color: white;
+	min-height: 200px;
+}
+
+@media (min-width: 0px)
+{
+	.rl
+	{
+		border-left: 0px solid white;
+	}
+
+	.rr
+	{
+		border-right: 0px solid white;
+	}
+}
+
+@media (min-width: 768px)
+{
+	.rl
+	{
+		border-left: 1px solid white;
+	}
+
+	.rr
+	{
+		border-right: 1px solid white;
+	}
+}
+
+.firstland
+{
+	background: url("grafika/firstland.jpg") center no-repeat;	
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.firstland_text
+{
+	color: white;
+	font-size: calc(20px + (28 - 20) * ((100vw - 300px) / (1600 - 300)));
+	text-shadow: 1px 1px 2px black,
+	-1px -1px 2px black,
+	1px -1px 2px black,
+	-1px 1px 2px black;
+}
+
+.regularland
+{
+	min-height: 350px;
+	background-color:#535f6b;
+	color: white;
+	text-align: center;
+}
+
+.regularland_prawo
+{
+	min-height: 350px;
+	font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.fheavy
+{
+	background: url("grafika/FHeavy.jpg") bottom center no-repeat fixed;	
+	height: 600px;
+	width: 100%;
+}
+
+.tekst4
+{
+	color: white;
+}
+

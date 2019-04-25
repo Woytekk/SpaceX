@@ -1,0 +1,230 @@
+.baner
+{
+	background: url("grafika/bazaMars.jpg") center no-repeat fixed;	
+	background-size: cover;
+	min-height: 100vh;
+	
+	color: #fff;
+	font-size: calc(60px + (110 - 60) * ((100vw - 300px) / (1600 - 300)));
+	text-shadow: 3px 3px 5px #000;
+	word-wrap: break-word;
+}
+
+
+.podbaner
+{
+	min-height: 400px;
+	background-color:#535f6b;
+	color:white;
+	letter-spacing:1px;
+
+}
+
+.lewo 
+{
+	
+}
+
+@media (min-width: 0px)
+{
+	.lewo
+	{
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 768px)
+{
+	.lewo
+	{
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 888px)
+{
+	.lewo
+	{
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 992px)
+{
+	.lewo
+	{
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 1200px) 
+{
+	.lewo
+	{
+		font-size: 24px;
+	}
+}
+
+
+.prawo
+{
+
+}
+
+.prawo img
+{
+	width: 100%;
+	max-width: 500px;
+}
+
+.obrazki2
+{
+	min-height: 600px;
+	width: 100%;
+	margin: 0px;
+}
+
+.imgleft
+{
+	background: url("grafika/LEWOkoncepcjaBazyc.jpg") center no-repeat;	
+	background-size:cover;
+	min-height: 600px;
+}
+
+.imgright
+{
+	background: url("grafika/PRAWOpodrozmarsc.jpg") center no-repeat;	
+	background-size:cover;
+	min-height: 600px;
+}
+
+.imgtext
+{
+	position: absolute;
+	bottom: 0px;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 1px;
+	float: bottom;
+}
+
+@media (min-width: 0px)
+{
+	.imgtext
+	{
+		letter-spacing: 0px;
+	}
+}
+
+@media (min-width: 768px)
+{
+	.imgtext
+	{
+		letter-spacing: 1px;
+	}
+}
+
+
+.obrazki
+{
+	background-color:#535f6b;
+}
+
+.obrazek
+{
+	float:left;
+}
+
+.obrazek p 
+{
+	color: white;
+}
+
+.obrazek .img_div
+{
+	position: relative;
+	overflow: hidden;
+	border-radius: 15px;
+}
+
+.obrazek .img_div img
+{
+
+	transition: ease 0.5s;
+	max-width: 100%;
+}
+
+
+
+.obrazek_text
+{
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	text-shadow: 1px 1px 2px black,
+	-1px -1px 2px black,
+	1px -1px 2px black,
+	-1px 1px 2px black;
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+	transition: ease 0.5s;
+	background-color: #44444488;
+}
+
+.obrazek_text div
+{
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+	left: 0px;
+	padding-bottom: 10px;
+}
+
+.img_div:hover .obrazek_text
+{
+	border-radius: 15px;
+	opacity: 1;
+}
+
+.img_div:hover img
+{
+	border-radius: 50px;
+	transform: scale(1.15);
+	opacity: 1;
+	
+}
+
+@media (min-width: 0px) {
+  .obrazek_text
+  {
+	font-size: 18px;
+  }	  
+}
+
+@media (min-width: 576px) {
+  .obrazek_text {
+	font-size: 24px;
+  }	
+}
+
+
+@media (min-width: 992px) {
+  .obrazek_text {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .obrazek_text {
+	font-size: 24px;
+  }	
+}
+
+
+
